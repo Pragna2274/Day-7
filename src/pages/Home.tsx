@@ -2,8 +2,8 @@ import { useEffect, useState } from "react"
 import { getProducts } from "../services/productService"
 
 import HeroBanner from "../components/common/HeroBanner"
-import Categories from "../components/common/categories"
-import ProductCarousel from "../components/common/productCarousel"
+import Categories from "../components/common/Categories"
+import ProductCarousel from "../components/common/ProductCarousel"
 
 export default function Home() {
   const [products, setProducts] = useState<any[]>([])
